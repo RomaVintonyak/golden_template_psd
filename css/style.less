@@ -1,16 +1,176 @@
 //compress: true;
-body{
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #222222;
 }
-header{
-    background: url(../img/first-bg.jpg) 
-    no-repeat center top / cover;
+.clearfix {
+  content: "";
+  display: table;
+  width: 100%;
+  clear: both;
 }
-.container{
+div {
+  box-sizing: border-box;
+}
+header {
+  background: url(../img/first-bg.jpg) no-repeat center top / cover;
+  padding-bottom: 160px;
+}
+.container {
+  width: 930px;
+  margin: 0 auto;
+}
+.logo {
+  margin-top: 50px;
+  float: left;
+}
+nav {
+  float: right;
+  margin-top: 50px;
+}
+.nav-menu {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+.nav-item {
+  float: left;
+  list-style: none;
+  display: block;
+  margin-right: 41px;
+}
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+.nav-link:hover{
+   color: #b89a34; 
+   font-size: 18px;
+}
+.titless {
+  padding-top: 115px;
+}
+.title-first {
+  font-size: 40px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 180px;
+}
+.titless-primary h1 {
+  font-size: 75px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 15px;
+}
+.titless h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+}
+.titless p {
+  color: #777777;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 5px;
+}
+.button {
+  background: #fed136;
+  color: #484543;
+  border-radius: 3px;
+  display: block;
+  text-decoration: none;
+  width: 240px;
+  padding: 20px 0;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 50px;
+  transition: all 0.5s ease;
+}
+.button:hover{
+    background:   #b8fe36b2;
+    color: #000000;  
+    font-size: 22px;
+}
+.services {
+  margin-top: 50px;
+}
+.services-item {
+  width: 270px;
+  float: left;
+  text-align: center;
+}
+.services-item:last-child {
+  float: right;
+}
+.services-item:nth-child(2) {
+  margin-left: 55px;
+}
+.services-item h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.services-item p {
+  font-size: 14px;
+  color: #777777;
+  line-height: 1.6em;
+}
+#servicess{
+    padding-bottom: 130px;
+}
+#portfolio {
+  background: #f7f7f7;
+  margin-top: 130px;
+}
+.works{
+    display: flex;
+}
+.works-item {
+    margin: 100px 20px;
+} 
 
+.about-item{
+    display: flex;
+    margin-top: 85px;
+    margin-bottom: 100px;
 }
-.logo{
-    
+.about-text{
+    text-align: right;
+    width: 300px;
+}
+.about-text h3{
+    color: #222222;
+    font-weight: bold;
+    font-size: 18px;
+}
+.about-text p{
+    color: #a2a2a2;
+    font-size: 14px;
+}
+.about-photo{
+    margin-left: 70px;
+}
+.photo--right{
+    margin-left: 40%;
+}
+.text--right{
+    text-align: left;
+    width: 300px;
+    margin-left: 70px;
+}
+.footer-copy{
+    text-align: center;
+    color: #c7c7c7;
+    font-size: 14px;
 }
